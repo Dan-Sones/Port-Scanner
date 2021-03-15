@@ -75,7 +75,6 @@ for port in range(port_min, port_max + 1):
 
 #loop through the list printing all the items (ports in this case) that were open when the original for loop was ran
 for port in open_ports:
-    print("here!")
     print(f"Port {port} is open on {ip_add_entered}.")
 
 
